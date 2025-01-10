@@ -127,7 +127,16 @@ Bold 700
 ExtraBold 800 */
 
 
+
+
+body { 
+    background-color: #F1F1F3;
+    padding: 0 160px;
+}  
+
+
 /* style for Header Section */
+
 nav ul {
     display: flex;
     justify-content: space-between;
@@ -154,6 +163,8 @@ nav ul li button {
 .banner {
     background-color: #C6E4D6;
     padding: 60px 80px;
+    margin-bottom: 80px;
+    border-radius: 24px;
 
 }
 
@@ -195,4 +206,47 @@ nav ul li button {
 .flag {
     width: auto;
     height: auto;
+}
+
+
+/* style for main section */
+
+
+.about-title {
+    font-size: 40px;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* style for pillers section */
+
+.about-pillers {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 80px;
+}
+
+.pillers { 
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 24px;
+    background-color: #FFFFFF;
+    padding: 40px 60px;
+    border-radius: 16px;
+    border: 1px; 
+    border-color: rgba(14, 14, 14, 0.15);
+}
+
+.piller-title {
+    font-size: 20px;
+    color: #0E0E0E;
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+
 }
