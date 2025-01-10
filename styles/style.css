@@ -1,0 +1,195 @@
+.open-sans-normal {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.fira-sans-thin {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .fira-sans-extralight {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .fira-sans-light {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .fira-sans-medium {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .fira-sans-semibold {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .fira-sans-bold {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .fira-sans-extrabold {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .fira-sans-black {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .fira-sans-thin-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .fira-sans-extralight-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .fira-sans-light-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .fira-sans-regular-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .fira-sans-medium-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .fira-sans-semibold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .fira-sans-bold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .fira-sans-extrabold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .fira-sans-black-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+
+
+/* Thin 100
+ExtraLight 200
+Light 300
+Regular 400
+Medium 500
+SemiBold 600
+Bold 700
+ExtraBold 800 */
+
+
+/* style for Header Section */
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+nav ul li button { 
+    background-color: white;
+    border-width: 1px;
+    border-color: #006A50;
+    border-radius: 8px;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #006A50;
+}
+/* style for Banner Section */
+
+.banner {
+    background-color: #C6E4D6;
+    padding: 60px 80px;
+
+}
+
+.banner-content {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding: 80px 60px;
+}
+
+.banner-text {
+    margin: 117px 60px;
+}
+
+.bangladesh {
+    font-size: 24px;
+    font-weight: 5 00;
+    color: rgba(14, 14, 14, 0.5);
+    margin-bottom: none;
+}
+
+.headline {
+    font-size: 56px;
+    font-weight: 700;
+    color: #0E0E0E;
+    margin-bottom: none;
+}
+
+.explore {
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 17px 34px;
+    background-color: #006A50;
+    border-radius: 8px;
+    border: none;
+}
+
+.flag {
+    width: auto;
+    height: auto;
+}
