@@ -463,14 +463,24 @@ nav ul li button:hover {
 .challenge-comma {
   display: flex;
   flex-direction: column;
+  align-items: left;
   background-color: #FFFFFF;
   background-image: url("quote-bg.png");
   background-repeat: no-repeat;
   background-origin: content-box;
-  padding: 24px;
+  padding: 48px 24px;
   border-radius: 16px;
-  gap: 0px;
+  gap: none;
   margin-bottom: 80px;
+}
+.comma-text {
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Fira Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0 0 24px 0;
+  line-height: 24px;
 }
 
 .yunus {
@@ -479,16 +489,16 @@ nav ul li button:hover {
   font-weight: 600;
   font-style: normal;
   color: rgba(14, 14, 14, 0.8);
-  margin: none;
+  margin: 0;
 }
 
-.designation {
-  font-size: 20px;
+.dsignation {
+  font-size: 16px;
   font-family: "Fira Sans", serif;
   font-weight: 400;
   font-style: normal;
   color: rgba(14, 14, 14, 0.6);
-  margin: none;
+  margin: 6px 0;
 }
 
 
