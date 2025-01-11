@@ -361,3 +361,18 @@ nav ul li button {
   color: #FFFFFF;
   margin: 24px 0 0 0;
 }
+
+/* style for donate section */
+
+.donate-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 80px;
+}
+
+.donate-title {
+  /* align-items: center; */
+}
