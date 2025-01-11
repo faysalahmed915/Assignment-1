@@ -132,10 +132,12 @@ ExtraBold 800 */
 body {
   background-color: #F1F1F3;
 }
+
 header {
   padding: 0 160px;
 
 }
+
 main {
   padding: 0 160px;
 }
@@ -444,7 +446,7 @@ nav ul li button {
   display: flex;
   flex-direction: column;
   background-color: #FFFFFF;
-  background-image: url("/B11A1--assignment-1/assets/quote-bg.png");
+  background-image: url("quote-bg.png");
   background-repeat: no-repeat;
   background-origin: content-box;
   padding: 24px;
@@ -625,7 +627,7 @@ nav ul li button {
 
 /* footer style */
 
-footer { 
+footer {
   display: flex;
   flex-direction: column;
   align-items: center;
