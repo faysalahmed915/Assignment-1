@@ -681,3 +681,58 @@ footer hr {
   gap: 24px;
   margin-top: 32px;
 }
+.table-section  { 
+  padding: 32px;
+  background-color: #FFFFFF;
+  border-radius: 16px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 32px;
+  border: 1px solid rgba(14, 14, 14, .2);
+  margin: none;
+
+}
+
+table thead {
+  background-color: #C6E4D6;
+ 
+  }
+
+table thead tr th {
+  font-size: 16px;
+  color: #0E0E0E;
+  font-family: "Fira Sans", serif;
+  font-weight: 700;
+  font-style: normal;
+  padding: 16px;
+  border: 1px solid rgba(198, 228, 214, 1);
+}
+.th-head {
+  text-align: left;
+  padding-left: 32px;
+}
+table tbody tr th {
+  font-size: 16px;
+  color: #0E0E0E;
+  font-family: "Fira Sans", serif;
+  font-weight: 700;
+  font-style: normal;
+  padding: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15) ;
+}
+
+table tbody tr th button {
+  background-color: rgba(198, 228, 214, 1);
+  color: black;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  padding: 12px 17px;
+}
+.th-1 {
+  text-align: left;
+  padding-left: 32px;
+}
