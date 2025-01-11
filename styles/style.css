@@ -131,6 +131,12 @@ ExtraBold 800 */
 
 body {
   background-color: #F1F1F3;
+}
+header {
+  padding: 0 160px;
+
+}
+main {
   padding: 0 160px;
 }
 
@@ -467,7 +473,7 @@ nav ul li button {
 
 
 
-.newsletter { 
+.newsletter {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -485,9 +491,9 @@ nav ul li button {
   font-style: normal;
   margin: none;
   text-align: center;
- }
+}
 
- .nl-text {
+.nl-text {
   font-size: 16px;
   color: rgba(14, 14, 14, 0.7);
   font-family: "Fira Sans", serif;
@@ -496,16 +502,18 @@ nav ul li button {
   margin: none;
   line-height: 24px;
   text-align: center;
- }
+  padding: 16px 64px;
+}
 
- .challenge-input { 
+.challenge-input {
   display: flex;
   align-items: center;
   gap: 0px;
   margin: none;
-  
- }
- .nl-input {
+
+}
+
+.nl-input {
   text-align: left;
   padding: 0 24px;
   border: none;
@@ -514,7 +522,7 @@ nav ul li button {
   border-radius: 8px 0 0 8px;
 }
 
-.nl-btn { 
+.nl-btn {
   width: 150px;
   height: 55px;
   margin: none;
@@ -527,7 +535,7 @@ nav ul li button {
 
 /* style of hover effect on cards */
 
-.learn-btn { 
+.learn-btn {
   height: 41px;
   width: 122px;
   padding: 11px 20px;
@@ -550,7 +558,7 @@ nav ul li button {
 
 .learn-1 {
   background-color: rgba(84, 144, 245, 1);
- 
+
 }
 
 
@@ -563,7 +571,7 @@ nav ul li button {
 }
 
 .learn-2 {
-  background-color: rgba(9, 161, 92, 1);  
+  background-color: rgba(9, 161, 92, 1);
 }
 
 
@@ -577,7 +585,7 @@ nav ul li button {
 }
 
 .learn-3 {
-  background-color: rgba(255, 194, 57, 1);  
+  background-color: rgba(255, 194, 57, 1);
 }
 
 /* Hovers for cards */
@@ -609,4 +617,38 @@ nav ul li button {
   transform-origin: left;
   border-color: #006A50;
   color: black;
+}
+
+
+/* footer style */
+
+footer { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 240px;
+  background-color: #FFFFFF;
+  margin: 80px 0 0 0;
+}
+
+footer h4 {
+  font-size: 32px;
+  color: #0E0E0E;
+  font-family: "Fira Sans", serif;
+  font-weight: 700;
+  font-style: normal;
+  margin: none;
+  padding: none;
+}
+
+footer hr {
+  width: 100%;
+  border: 1px solid rgba(14, 14, 14, .2);
+  margin: none;
+}
+
+.sm-logos {
+  display: flex;
+  gap: 24px;
+  margin-top: 32px;
 }
