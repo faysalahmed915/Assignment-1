@@ -312,6 +312,7 @@ nav ul li button {
   border: none;
 
 }
+
 .learn-more {
   color: black;
 }
@@ -320,7 +321,7 @@ nav ul li button {
 
 /* style for news section */
 
-.news-sections { 
+.news-sections {
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -347,16 +348,17 @@ nav ul li button {
   border-radius: 24px;
 }
 
-.news-channel { 
+.news-channel {
   margin-bottom: 12px;
 }
+
 .news-date {
   display: flex;
   gap: 12px;
   margin-bottom: 18px;
 }
 
-.read-more { 
+.read-more {
   background-color: #006A50;
   color: #FFFFFF;
   margin: 24px 0 0 0;
@@ -370,9 +372,42 @@ nav ul li button {
   justify-content: space-between;
   align-items: center;
   gap: 32px;
-  margin-bottom: 80px;
+  /* margin-bottom: 80px; */
+  margin: none;
+  padding: 0 105px;
+}
+
+.donate-boxes {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  padding: none;
+  margin: none;
+  /* margin-bottom: 80px; */
+}
+
+.donate-box {
+  background-color: #FFFFFF;
+  padding: 40px;
+  border-radius: 16px;
+  /* margin: none; */
 }
 
 .donate-title {
   /* align-items: center; */
+  margin-bottom: 0 0 12px 0;
+}
+
+.donate-input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.donate-input::placeholder {
+  color: rgba(171, 171, 171, 1);
+  align-items: center;
 }
