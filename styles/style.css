@@ -352,7 +352,7 @@ nav ul li button:hover {
   display: flex;
   flex-direction: column;
   gap: 24px;
-}
+  }
 
 .news-box {
   display: flex;
@@ -700,7 +700,6 @@ footer hr {
 table {
   width: 100%;
   border-collapse: collapse;
-  margin-top: 32px;
   border: 1px solid rgba(14, 14, 14, .2);
   margin: none;
 
