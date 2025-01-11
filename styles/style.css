@@ -377,12 +377,32 @@ nav ul li button {
   padding: 0 105px;
 }
 
+
+.donate-title {
+  font-size: 40px;
+  color: #0E0E0E;
+  margin: none;
+  font-family: "Fira Sans", serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+}
+.donate-text { 
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Fira Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: none;
+  line-height: 24px;
+  text-align: center;
+}
 .donate-boxes {
   width: 100%;
   display: flex;
   justify-content: space-between;
   gap: 24px;
-  padding: none;
+  padding: 0 105px;
   margin: none;
   /* margin-bottom: 80px; */
 }
@@ -394,17 +414,12 @@ nav ul li button {
   /* margin: none; */
 }
 
-.donate-title {
-  /* align-items: center; */
-  margin-bottom: 0 0 12px 0;
-}
 
 .donate-input {
-  width: 100%;
+  width: 95%;
   padding: 12px;
-  border-radius: 8px;
-  margin-bottom: 12px;
   text-align: center;
+  border: none;
 }
 
 .donate-input::placeholder {
