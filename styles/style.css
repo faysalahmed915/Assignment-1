@@ -455,7 +455,9 @@ nav ul li button:hover {
   color: rgba(171, 171, 171, 1);
   align-items: center;
 }
-
+ .donate-active { 
+  background-color: #C6E4D6;
+ }
 
 /* challenge comma style */
 .challenge-comma {
@@ -615,6 +617,8 @@ nav ul li button:hover {
 .learn-btn:hover {
   background-color: #006A50;
   color: white;
+  transform: scale(1.05);
+  transition: transform 0.2s;
 }
 
 .donate-section:hover {
@@ -624,9 +628,11 @@ nav ul li button:hover {
 }
 
 .donate-box:hover {
-  background-color: lightgrey;
+  background-color: #C6E4D6;
   border-radius: 16px;
   border-color: #006A50;
+  transform: scale(1.05);
+  transition: transform 0.5s;
 }
 
 .btn:hover {
@@ -635,6 +641,8 @@ nav ul li button:hover {
   transform-origin: left;
   border-color: #006A50;
   color: black;
+  transform: scale(1.05);
+  transition: transform 0.5s;
 }
 
 .pillers:hover {
