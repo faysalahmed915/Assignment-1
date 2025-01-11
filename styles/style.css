@@ -1,7 +1,7 @@
 .open-sans-normal {
   font-family: "Open Sans", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: auto;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
@@ -146,7 +146,7 @@ nav ul {
 
 nav ul li a {
   list-style: none;
-  font size: 32px;
+  font-size: 32px;
   text-decoration: none;
   color: #0E0E0E;
 }
@@ -304,7 +304,8 @@ nav ul li button {
   width: 122px;
   padding: 11px 20px;
   border-radius: 8px;
-  text-align: center font-size: 16px;
+  text-align: center;
+  font-size: 16px;
   font-family: "Fira Sans", serif;
   font-weight: 600;
   font-style: normal;
@@ -313,6 +314,16 @@ nav ul li button {
 }
 .learn-more {
   color: black;
+}
+
+
+
+/* style for news section */
+
+.news-sections { 
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .news-box {
@@ -329,7 +340,7 @@ nav ul li button {
   font-family: "Fira Sans", serif;
   font-weight: 700;
   font-style: normal;
-  margin-bottom: 12px;
+  margin: 0 0 24px 0;
 }
 
 .news-img {
@@ -342,11 +353,11 @@ nav ul li button {
 .news-date {
   display: flex;
   gap: 12px;
-  margin-bottom: 12px;
+  margin-bottom: 18px;
 }
 
 .read-more { 
   background-color: #006A50;
   color: #FFFFFF;
-  margin-top: 24px;
+  margin: 24px 0 0 0;
 }
