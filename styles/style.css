@@ -468,7 +468,7 @@ nav ul li button:hover {
   background-image: url("quote-bg.png");
   background-repeat: no-repeat;
   background-origin: content-box;
-  padding: 48px 24px;
+  padding: 24px;
   border-radius: 16px;
   gap: none;
   margin-bottom: 80px;
@@ -479,7 +479,7 @@ nav ul li button:hover {
   font-family: "Fira Sans", serif;
   font-weight: 400;
   font-style: normal;
-  margin: 0 0 24px 0;
+  margin: 24px 0 24px 0;
   line-height: 24px;
 }
 
@@ -498,7 +498,7 @@ nav ul li button:hover {
   font-weight: 400;
   font-style: normal;
   color: rgba(14, 14, 14, 0.6);
-  margin: 6px 0;
+  margin: 6px 0 24px 0;
 }
 
 
