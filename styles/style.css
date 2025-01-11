@@ -383,7 +383,7 @@ nav ul li button {
   gap: 32px;
   /* margin-bottom: 80px; */
   margin: none;
-  padding: 0 105px;
+  padding: 0 105px 24px;
 }
 
 
@@ -619,6 +619,9 @@ nav ul li button {
   color: black;
 }
 
+.pillers:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 /* footer style */
 
